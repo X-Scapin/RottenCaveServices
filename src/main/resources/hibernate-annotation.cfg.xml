@@ -10,10 +10,11 @@
 		<property name="hibernate.connection.username">rotten</property>
 		<property name="hibernate.connection.password">cave</property>
 
-		<!-- Value = create to create tables at first call of sessionFactory / update after -->
+		<!-- Value = create to create tables at first call of sessionFactory / 
+			update after -->
 		<property name="hibernate.hbm2ddl.auto">update</property>
 		<!-- true to log sql queries -->
-   		<property name="show_sql">true</property>
+		<property name="show_sql">true</property>
 
 		<!-- org.hibernate.HibernateException: No CurrentSessionContext configured! -->
 		<property name="hibernate.current_session_context_class">thread</property>
