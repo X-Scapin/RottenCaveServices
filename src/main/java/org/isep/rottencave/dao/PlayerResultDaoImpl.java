@@ -35,7 +35,7 @@ public class PlayerResultDaoImpl implements PlayerResultDao {
 	@Override
 	public List<PlayerResult> listPlayerResults() {
 		@SuppressWarnings("unchecked")
-		List<PlayerResult> scores = (List<PlayerResult>) currentSession.createQuery("from PlayerResult").list();
+		List<PlayerResult> scores = (List<PlayerResult>) currentSession.createQuery("from PlayerResult").setCacheable(true).list();
 		return scores;
 	}
 	

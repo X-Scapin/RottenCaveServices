@@ -29,7 +29,7 @@ public class HibernateSessions {
             LOGGER.debug("Hibernate Annotation serviceRegistry created");
              
             SessionFactory sessionFactory = configuration.buildSessionFactory(serviceRegistry);
-             
+
             return sessionFactory;
         } catch (Throwable ex) {
             LOGGER.error("Initial SessionFactory creation failed." + ex);
