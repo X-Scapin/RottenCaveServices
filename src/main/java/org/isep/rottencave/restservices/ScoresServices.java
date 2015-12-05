@@ -2,7 +2,7 @@ package org.isep.rottencave.restservices;
 
 import java.util.List;
 
-import javax.ws.rs.DELETE;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -34,27 +34,31 @@ public class ScoresServices {
 		return Response.status(200).entity(prs).build();
 	}
 	
-	@POST
-	@Path("update")
-	public Response updateScore(PlayerResult pr) {
-		ScoreService ss = new ScoreService();
-		ss.updateScore(pr);
-		return Response.status(200).build();
-	}
+	// Not yet useful
+//	@POST
+//	@Path("update")
+//	@Consumes(MediaType.APPLICATION_JSON)
+//	public Response updateScore(PlayerResult pr) {
+//		ScoreService ss = new ScoreService();
+//		ss.updateScore(pr);
+//		return Response.status(200).build();
+//	}
 	
 	@POST
 	@Path("create")
+	@Consumes(MediaType.APPLICATION_JSON)
 	public Response insertScore(PlayerResult pr) {
 		ScoreService ss = new ScoreService();
 		ss.persistScore(pr);
 		return Response.status(200).build();
 	}
-	
-	@DELETE
-	@Path("delete/{id}")
-	public Response deleteScore(@PathParam("id") String id) {
-		ScoreService ss = new ScoreService();
-		ss.deleteScore(Integer.parseInt(id));
-		return Response.status(200).build();
-	}
+
+	// Not yet useful
+//	@DELETE
+//	@Path("delete/{id}")
+//	public Response deleteScore(@PathParam("id") String id) {
+//		ScoreService ss = new ScoreService();
+//		ss.deleteScore(Integer.parseInt(id));
+//		return Response.status(200).build();
+//	}
 }

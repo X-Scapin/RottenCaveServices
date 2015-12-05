@@ -13,7 +13,7 @@ public class HibernateSessionTest {
 	private static final Logger LOGGER = LoggerFactory.getLogger(HibernateSessionTest.class);
 	
 	public static void main(String[] args) {
-		PlayerResult pr = new PlayerResult(new Date(), 130, "DirtyPlayer");
+		PlayerResult pr = new PlayerResult(new Date(), 130, "DirtyPlayer", 12452);
 
 		//Get Session
         SessionFactory sessionFactory = HibernateSessions.getSessionFactory();

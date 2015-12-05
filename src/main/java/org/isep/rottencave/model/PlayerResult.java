@@ -34,15 +34,19 @@ public class PlayerResult {
 	
 	@Column(name="PlayerName", length=50, nullable=false)
 	private String playerName;
+	
+	@Column(name="Seed", nullable=false, length=12)
+	private int seed;
 
 	public PlayerResult() {
 	
 	}
 	
-	public PlayerResult(Date playDate, int score, String playerName) {
+	public PlayerResult(Date playDate, int score, String playerName, int seed) {
 		this.playDate = playDate;
 		this.score = score;
 		this.playerName = playerName;
+		this.seed = seed;
 	}
 	
 	public int getId() {
@@ -75,5 +79,13 @@ public class PlayerResult {
 
 	public void setPlayerName(String playerName) {
 		this.playerName = playerName;
+	}
+
+	public int getSeed() {
+		return seed;
+	}
+
+	public void setSeed(int seed) {
+		this.seed = seed;
 	}
 }

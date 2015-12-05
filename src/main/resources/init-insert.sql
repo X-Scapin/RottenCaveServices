@@ -1,14 +1,24 @@
-INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`) VALUES
-('2015-11-03 00:00:00', 'Guiguiguy', 124),
-('2015-11-13 00:00:00', 'Julcity', 14),
-('2015-11-01 00:00:00', 'Scapin', 41203),
-('2015-11-03 00:00:00', 'Guiguiguy', 23),
-('2015-11-13 00:00:00', 'Julcity', 4),
-('2015-11-01 00:00:00', 'Scapin', 51),
-('2015-11-03 00:00:00', 'Guiguiguy', 231),
-('2015-11-13 00:00:00', 'Julcity', 425),
-('2015-11-01 00:00:00', 'Scapin', 521),
-('2015-11-03 00:00:00', 'Guiguiguy', 42),
-('2015-11-13 00:00:00', 'Julcity', 532),
-('2015-11-01 00:00:00', 'Scapin', 78)
-;
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-03 00:00:00', 'Guiguiguy', 2421, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-01-13 00:00:00', 'Julcity', 14, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-21 00:00:00', 'Scapin', 24, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-03 00:02:00', 'Guiguiguy', 42, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-04-13 00:00:00', 'Julcity', 4, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-01 00:00:00', 'Scapin', 241, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-13 00:00:00', 'Guiguiguy', 512341, 84219412);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2014-11-13 00:01:00', 'Julcity', 421, 9321808);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-01 00:00:00', 'Scapin', 5212, 412805);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-03 00:00:00', 'Guiguiguy', 2142, 4517951);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-13 00:00:00', 'Julcity', 521, 12384012);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-01 00:00:00', 'Scapin', 71518,142241);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-03 00:00:00', 'Guiguiguy', 42, 4517951);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-13 00:00:00', 'Julcity', 531242, 12384012);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-01 00:00:00', 'Scapin', 78,142241);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2012-12-13 00:02:00', 'Julcity', 551524, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-01 00:00:00', 'Scapin', 5521, 12345678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-03 00:00:00', 'Guiguiguy', 231, 84219412);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-03 00:00:00', 'Guiguiguy', 42, 4517951);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-13 00:00:00', 'Julcity', 531242, 124384012);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-01 00:00:00', 'Scapin', 78,142243);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2012-12-13 00:02:00', 'Julcity', 551524, 23678);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-01 00:00:00', 'Scapin', 5521, 123456742);
+INSERT INTO `PlayerResult` (`PlayDate`, `PlayerName`, `Score`, `Seed`) VALUES ('2015-11-03 00:00:00', 'Guiguiguy', 231, 84212112);

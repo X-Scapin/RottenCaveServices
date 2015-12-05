@@ -10,11 +10,14 @@
 		<property name="hibernate.connection.username">rotten</property>
 		<property name="hibernate.connection.password">cave</property>
 
-		<property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+		<property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
 		
 		<!-- Value = create to create tables at first call of sessionFactory / 
 			update after -->
 		<property name="hibernate.hbm2ddl.auto">update</property>
+		<!-- Uncomment with create operation for initialize database -->
+		<!-- <property name="hibernate.hbm2ddl.import_files">init-insert.sql</property>-->
+		
 		<!-- true to log sql queries -->
 		<property name="show_sql">true</property>
 
